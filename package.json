@@ -1,7 +1,7 @@
 {
   "name": "tree-path",
   "version": "1.0.0",
-  "description": "Show treeify path in a console",
+  "description": "List contents of directories in tree-like format",
   "main": "treePath.js",
   "type": "module",
   "author": "Alex Greb",
