@@ -1,0 +1,15 @@
+{
+  "name": "tree-path",
+  "version": "1.0.0",
+  "description": "Show treeify path in a console",
+  "main": "treePath.js",
+  "type": "module",
+  "author": "Alex Greb",
+  "license": "ISC",
+  "bin": {
+    "tree-path": "./bin/index.js"
+  },
+  "dependencies": {
+    "mri": "^1.2.0"
+  }
+}
