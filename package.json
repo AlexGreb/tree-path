@@ -4,12 +4,23 @@
   "description": "List contents of directories in tree-like format",
   "main": "treePath.js",
   "type": "module",
-  "author": "Alex Greb",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexGreb/tree-path"
+  },
   "bin": {
     "tree-path": "./bin/index.js"
   },
   "dependencies": {
     "mri": "^1.2.0"
-  }
+  },
+  "homepage": "https://github.com/AlexGreb/tree-path#readme",
+  "author": "AlexGreb",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/AlexGreb/tree-path/blob/main/LICENSE"
+    }
+  ],
+  "license": "MIT"
 }
