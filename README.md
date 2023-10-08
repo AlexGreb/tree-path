@@ -19,9 +19,9 @@ your path
 ├── .gitignore
 ├── bin
 │   └── tree-path.js
-├── node_modules\
-│   └── mri\
-│       ├── lib\
+├── node_modules
+│   └── mri
+│       ├── lib
 │       │   ├── index.js
 │       │   └── index.mjs
 │       ├── license.md
