@@ -1,6 +1,6 @@
 {
   "name": "@alexgreb/tree-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List contents of directories in tree-like format",
   "main": "treePath.js",
   "type": "module",
@@ -14,6 +14,18 @@
   "dependencies": {
     "mri": "^1.2.0"
   },
+  "keywords": [
+    "tree",
+    "print",
+    "console",
+    "pretty",
+    "treeify",
+    "stringify",
+    "visualize",
+    "convert",
+    "string",
+    "debug"
+  ],
   "homepage": "https://github.com/AlexGreb/tree-path#readme",
   "author": "AlexGreb",
   "licenses": [
