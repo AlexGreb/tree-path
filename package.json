@@ -1,5 +1,5 @@
 {
-  "name": "tree-path",
+  "name": "@alexgreb/tree-path",
   "version": "1.0.0",
   "description": "List contents of directories in tree-like format",
   "main": "treePath.js",
