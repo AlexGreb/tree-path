@@ -1,7 +1,7 @@
 import traversal from './lib/traversal.js';
-import path from 'path';
+import path from 'node:path';
 import {cwd, stdout} from 'node:process';
-import {readdirSync} from 'fs';
+import {readdirSync} from 'node:fs';
 import counter from './lib/counter.js';
 
 export default function treePath(source = '.', options = {depth: Infinity}) {
@@ -19,3 +19,4 @@ export default function treePath(source = '.', options = {depth: Infinity}) {
         throw new Error(e.message);
     }
 }
+

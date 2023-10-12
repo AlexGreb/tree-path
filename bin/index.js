@@ -1,19 +1,21 @@
 #! /usr/bin/env node
-import mri from 'mri';
 import treePath from '../treePath.js';
+import {parseArgs} from 'node:util';
 
-const argv = process.argv.slice(2);
-const defaultOptions = {
-  depth: Infinity,
+
+const options = {
+  depth: {
+    type: 'string',
+    short: 'd',
+    default: 'Infinity'
+  }
 };
 
-const userOptions = mri(argv, {
-  alias: {
-    d: 'depth'
-  },
-});
+const {
+  values,
+  positionals
+} = parseArgs({options, strict: false});
 
-const options = Object.assign(defaultOptions, userOptions);
-const source = userOptions._[0];
+const source = positionals[0];
 
-treePath(source, options);
+treePath(source, values);

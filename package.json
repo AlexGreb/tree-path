@@ -1,6 +1,6 @@
 {
   "name": "@alexgreb/tree-path",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "List contents of directories in tree-like format",
   "main": "treePath.js",
   "type": "module",
@@ -11,8 +11,9 @@
   "bin": {
     "tree-path": "./bin/index.js"
   },
-  "dependencies": {
-    "mri": "^1.2.0"
+  "engines" : {
+    "npm" : ">=10.1.0",
+    "node" : ">=20.0.0"
   },
   "keywords": [
     "tree",
