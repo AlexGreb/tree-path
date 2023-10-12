@@ -1,6 +1,6 @@
 {
   "name": "@alexgreb/tree-path",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "List contents of directories in tree-like format",
   "main": "treePath.js",
   "type": "module",
